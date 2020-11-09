@@ -1,0 +1,9 @@
+The "portfolio.html" file includes some url for social-media icons & my image, which are used directly from my computer using computer folders path.
+Those images will not work if someone just copied and paste the code samples from "portfolio.html" and "portfolio.css" files in their projects.
+However, I'm attaching here the links to those social-media icons and obviously, image will be yours once, so you gonna use your image as well.
+
+So, in short, codes to ignore ;
+* social-media icons path(url).
+* my image path(url).
+
+Flaticon link (social-media icons) : https://www.flaticon.com/packs/social-media-86
