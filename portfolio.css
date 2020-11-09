@@ -1,0 +1,186 @@
+/* Author: Hasan Al Saeed
+ECE, IIT(ISM) Dhanbad
+Date:07/11/2020
+Howly, Assam
+Copyright ©️ Hasan Al Saeed */
+
+/* GOOGLE Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+/* Resetting defaul styles:margin, padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container section stylings */
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+/* Navigation bar stylings */
+.navbar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+#title {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#title span {
+    color: #EEAB61;
+}
+
+ul {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-lists {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 12px;
+}
+
+.nav-lists:hover {
+    background-color: #EEAB61;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/* Main Content stylings */
+.main-content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+/* Social Media Icons and Links */
+.social-media-section {
+    position: absolute;
+    top: 150px;
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-bar {
+    width: 100px;
+    height: 3px;
+    border: none;
+    border-radius: 16px;
+    transform: rotate(90deg);
+}
+
+#upper {
+    background-color: #ED6DB8;
+    margin-bottom: 50px;
+}
+
+#lower {
+    background-color: #EEAB61;
+    margin-top: 50px;
+}
+
+.social-media-section img {
+    width: 30px;
+    margin: 12px 0px;
+}
+
+.social-media-section img:hover {
+    cursor: pointer;
+}
+
+
+/* Greetings, Names & Designation Stylings */
+.portfolio-content {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+}
+
+#greetings {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#naming {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#naming span {
+    color: #EEAB61;
+}
+
+#designation {
+    position: absolute;
+    top: 150px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#designation span {
+    color: #ED6DB8;
+}
+
+/* Button styling */
+.btn {
+    position: absolute;
+    top: 300px;
+    width: 150px;
+    padding: 15px 10px;
+    border: none;
+    background-image: linear-gradient(to right, #EEAB61, #ED6DB8);
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.15), 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+
+/* Image Section Stylings */
+.image-design-section {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-design-section img {
+    position: absolute;
+    top: 50px;
+    right: 5%;
+    width: 400px;
+}
